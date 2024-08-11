@@ -1,0 +1,54 @@
+/* src/App.css */
+
+body {
+  background-color: #e0f7fa; /* Azul claro */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #00796b; /* Verde más oscuro para el header */
+  color: white;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 50px;
+  height: auto;
+}
+
+.header h1 {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #00796b; /* Verde más oscuro para el footer */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
